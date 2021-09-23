@@ -7,10 +7,10 @@
 class Path
 {
     public:
-        Path( Maze *maze_ptr, std::pair< int, int > position, std::pair< int, int > exit_position )
+        Path( Maze *maze_ptr, std::pair< int, int > first_pos, std::pair< int, int > exit_position )
         {
             maze = maze_ptr;
-            position = position;
+            position = first_pos;
             exit_pos = exit_position;
         }
     
